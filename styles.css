@@ -12,7 +12,7 @@
 	display:grid;
 	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
 	grid-template-rows: 124px 124px 124px 124px 124px;
-	/* grid-gap:5px solid white;; */
+	grid-gap:10px
 }
 .item1{
 	grid-column:span 4 / auto  ;
