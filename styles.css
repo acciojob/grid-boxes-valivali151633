@@ -6,23 +6,47 @@
   grid-gap: 10px 10px;
 }
 
-/* .item1 {
+#grid > div:nth-child(1) {
   background-color: green;
   grid-column: span 4;
-  grid-row: span 1 / auto;
-} */
-#grid :nth-child(2) {
+  grid-row: span 1;
+}
+
+#grid > div:nth-child(2) {
   background-color: green;
   grid-column: span 1;
-  grid-row: span 4 / auto;
+  grid-row: span 4;
 }
+
 #grid > div:nth-child(3) {
   background-color: green;
   grid-column: span 1;
-  grid-row: span 4 / auto;
+  grid-row: span 1;
 }
+
 #grid > div:nth-child(4) {
   background-color: green;
   grid-column: span 2;
-  grid-row: span 1 / auto;
+  grid-row: span 1;
+}
+
+#grid > div:nth-child(5) {
+  background-color: green;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+#grid > div:nth-child(6),
+#grid > div:nth-child(7),
+#grid > div:nth-child(8),
+#grid > div:nth-child(9) {
+  background-color: green;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+#grid > div:nth-child(10) {
+  background-color: green;
+  grid-column: span 3;
+  grid-row: span 1;
 }
